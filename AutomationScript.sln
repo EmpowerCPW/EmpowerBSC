@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{FDA84ACC-7919-4485-97E9-96BFE192ACB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{60FADBEA-8BD5-4BA5-9712-F6D58B0BFB3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{6554CB83-CF86-485B-A576-123F8F963A28}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{0B38391A-9910-418E-8C0B-3CA669B0A9BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{9DD05686-AB12-459A-8143-CD83A7CAB987}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F26F03DC-AC90-4225-B9D9-AC5FBBE1E2D9}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{B895B191-F9CB-4AA5-86AE-502CAEAC0374}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Empower", "Empower", "{395D0285-5111-498C-B921-FB9B06BECBA6}"
+	ProjectSection(SolutionItems) = preProject
+		Empower.xml = Empower.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{341067FF-A98B-47A4-A307-41B8A96C563E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empower_1", "Empower_1\Empower_1.csproj", "{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DD05686-AB12-459A-8143-CD83A7CAB987} = {0B38391A-9910-418E-8C0B-3CA669B0A9BB}
+		{B895B191-F9CB-4AA5-86AE-502CAEAC0374} = {FDA84ACC-7919-4485-97E9-96BFE192ACB4}
+		{395D0285-5111-498C-B921-FB9B06BECBA6} = {60FADBEA-8BD5-4BA5-9712-F6D58B0BFB3C}
+		{341067FF-A98B-47A4-A307-41B8A96C563E} = {395D0285-5111-498C-B921-FB9B06BECBA6}
+		{5D6BDC45-D12F-45A9-ACFF-BDAC8D0F679E} = {341067FF-A98B-47A4-A307-41B8A96C563E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E3A7E23-94AA-4EF0-8EF6-4086DA42A889}
+	EndGlobalSection
+EndGlobal
